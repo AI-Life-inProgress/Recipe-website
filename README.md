@@ -1,5 +1,5 @@
 # Recipe-website
 
-`A short website based around just HTML & CSS for recipes`
-
-Demonstrating use of css styles and some basic HTML content.
+A simple recipe website built using HTML and CSS. 
+Demonstrates the use of basic HTML structure and CSS styling to 
+create a clean, user-friendly layout.
