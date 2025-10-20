@@ -1,0 +1,128 @@
+/* CSS Reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(56, 55, 55);
+    margin-top: 100px;
+}
+
+                                            /* index.html Home page* /
+
+/* Flex-box parent container*/
+.container {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    background-color: #be3144;
+    height: 100px;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+}
+
+
+.main__heading {
+    margin: 0 100px;
+    font-weight: 400;
+}
+
+.main__heading a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* ul parent container to li's */
+.list__container {
+    display: flex;
+}
+
+
+.list__container li {
+    list-style: none;
+    margin: 0 100px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+li a:hover {
+    font-weight: 600;
+    background-color:rgba(139, 7, 7, 0.5);
+    
+}
+
+
+.hero {
+    display: flex;
+    border: 10px solid rgb(221, 221, 221);
+    background: rgb(221, 221, 221);
+    column-gap: 10px;
+}
+
+img {
+    width: 25%;
+    height: 75vh;
+    border-radius: 20px 0 20px 0;
+}
+
+
+
+.inspire__to__cook {
+    background-color: rgb(248, 252, 255);
+    height: 600px;
+    border-radius: 0 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inspire__to__cook h3 {
+    font-weight: 300;
+    font-size: 8rem;    
+}
+
+.inspire__to__cook  p {
+    font-weight: 300;
+    font-size: 4rem;
+    align-self: center;
+}
+
+
+.copyright__footer {
+    height: 250px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__footer p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+                                          /* recipes.html */
+
+.recipes__heading {
+    background-color: rgba(131, 10, 10, 0.418);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
