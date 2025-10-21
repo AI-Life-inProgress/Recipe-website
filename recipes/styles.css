@@ -82,7 +82,7 @@ img {
 
 
 
-.inspire__to__cook {
+.inspire__text {
     background-color: rgb(248, 252, 255);
     height: 600px;
     border-radius: 0 100px 0 0;
@@ -93,12 +93,12 @@ img {
 
 }
 
-.inspire__to__cook h3 {
+.inspire__text h3 {
     font-weight: 300;
     font-size: 8rem;    
 }
 
-.inspire__to__cook  p {
+.inspire__text  p {
     font-weight: 300;
     font-size: 4rem;
     align-self: center;
@@ -168,4 +168,32 @@ img {
 
 .ingredients li {
     list-style: none;
+}
+
+                                /* about.html */
+
+
+.inspire__text h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-shadow: grey 3px 3px 3px;
+}
+
+.recipes__heading__about {
+    background: linear-gradient(to right, #be3144, rgba(255, 0, 0, 0.479));
+    color: whitesmoke;
+    padding: 20px;
+    text-shadow: #be3144 3px 3px 3px;
+    border-radius: 60px 0 60px 0;
+}
+
+.about__statement {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.about__statement em{
+    font-size: 2.5rem;   
+    font-weight: 300;
 }
